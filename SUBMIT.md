@@ -55,7 +55,7 @@ Custom BPF deploy skipped intentionally (near-zero cost path using genesis Memo)
 - [x] Code + README  
 - [x] Public GitHub repo  
 - [x] Live GitHub Pages URL — https://kvngjamesii.github.io/cookie-crumb-jar/
-- [ ] Earn form submit (parallel executor / HUMAN_ONLY)  
+- [x] Earn form submit (2026-09-13 — Submission Received!)
 - [ ] X thread + Telegram share (human)
 
 ## Agent attempt log (2026-09-13T21:04Z)
