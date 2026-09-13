@@ -73,3 +73,36 @@ footer { margin-top: 1.5rem; color: var(--muted); font-size: 0.85rem; text-align
 
 /* wallet button polish */
 .wallet-adapter-button { background: #173057 !important; border-radius: 999px !important; }
+
+.steps { margin: 0.75rem 0 0; padding-left: 1.2rem; color: var(--muted); font-size: 0.9rem; line-height: 1.55; }
+.hero-actions { display: flex; flex-direction: column; gap: 0.5rem; align-items: stretch; }
+.ghost {
+  border: 1px solid var(--line); background: #0a1424; color: var(--text);
+  border-radius: 999px; padding: 0.55rem 1rem; cursor: pointer;
+}
+.big { font-size: 1.15rem; font-weight: 650; margin: 0.25rem 0; }
+.row-links { display: flex; gap: 0.75rem; align-items: center; margin-top: 0.35rem; }
+.linkish, .btn-link {
+  background: none; border: 0; color: var(--accent2); cursor: pointer; padding: 0; font: inherit;
+}
+.charcount { text-align: right; color: var(--muted); font-size: 0.8rem; margin: 0.2rem 0 0; }
+.tip-row { margin-top: 0.75rem; }
+.tip-chips { margin-top: 0.4rem; }
+.chip {
+  border: 1px solid var(--line); border-radius: 999px; padding: 0.35rem 0.7rem;
+  background: #0a1424; color: var(--text); font-size: 0.85rem; cursor: pointer; text-decoration: none;
+}
+.chip.on { border-color: var(--accent); color: var(--accent); background: #2a2110; }
+.feed-head { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; align-items: flex-start; }
+.feed-list { list-style: none; padding: 0; margin: 0.75rem 0 0; }
+.feed-list li { padding: 0.75rem 0; border-bottom: 1px solid var(--line); }
+.feed-top { display: flex; flex-wrap: wrap; gap: 0.55rem; align-items: center; }
+.feed-meta { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 0.35rem; font-size: 0.82rem; }
+.tag {
+  font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em;
+  background: #3a2a10; color: var(--accent); border-radius: 6px; padding: 0.15rem 0.4rem;
+}
+.tag.dim { background: #1a2740; color: var(--muted); }
+.crumb-item .memo { color: var(--text); font-size: 0.95rem; margin-top: 0.35rem; }
+.time { font-size: 0.8rem; }
+.howto { margin: 0.4rem 0 0; padding-left: 1.15rem; color: var(--muted); line-height: 1.55; }
